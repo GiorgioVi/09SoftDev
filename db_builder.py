@@ -7,7 +7,7 @@ c = database.cursor()    #facilitate database ops
 #==========================================================
 #INSERT YOUR POPULATE CODE IN THIS ZONE
 
-c.execute("CREATE TABLE IF NOT EXISTS students(name TEXT, age NUMERIC, if NUMERIC)")
+c.execute("CREATE TABLE IF NOT EXISTS students(name TEXT, age NUMERIC, id NUMERIC)")
 c.execute("CREATE TABLE IF NOT EXISTS grades(class TEXT, grade NUMERIC, id NUMERIC)")
 
 # reads peeps.csv and fills students table
